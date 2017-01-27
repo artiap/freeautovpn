@@ -12,7 +12,8 @@ This is 2 bash scripts makes connection to vpnbook.com downloading .ovpn files a
 # If you want to make autovpn connection without password update run the ./autovpn (this is only after of the first run  ./vpnscript.sh)
 
 # (For auto-update the passwords) Every time you want to run again the script ./vpnscript.sh run first the cleaning script ./vpn-clear-all.sh
-
+#################################
+If you dont want to run on xterm open the scripts and remove the " xterm -e "
 #################################
 
 # After of download run "sudo bash start" or this line 
