@@ -10,6 +10,6 @@ awk '{gsub(" ", "");print}' 4outpass.lst > vpnbookPassword.txt
 cat vpnbookPassword.txt > userpass.txt
 echo -e "vpnbook\n$(cat userpass.txt)" > login.conf
 cat login.conf
-#echo -e --auth-user-pass login.conf\n$(cat vpnbook-euro2-tcp443.ovpn)" > vpnbook-euro2-tcp443.ovpn
+
 xterm -e sudo openvpn --config vpnbook-euro2-tcp443.ovpn --auth-user-pass login.conf auth-nocache --connect-retry-max 3 --single-session --tls-exit --nobind
 
