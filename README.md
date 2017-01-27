@@ -25,8 +25,9 @@ Contact mail nlc2greece@gmail.com
 #################################
 (This is my first public project)
 #################################
-Bitcoin Wallet: 168twdRdEVxi7TDn3xej2Lj6a56gSwjhfm
-NoLimit (NLC2) Wallet: NYvg5ouKzrJheHQnZh33nATk6qhnZ1mcZt
+Bitcoin BTC  Wallet:    168twdRdEVxi7TDn3xej2Lj6a56gSwjhfm
+NoLimit NLC2 Wallet:    NYvg5ouKzrJheHQnZh33nATk6qhnZ1mcZt
+litecoin LTC Wallet:    LL15s78BM1dFuQPDomn67DyuSV3oTKduxE
 #################################
 # If my script gives you happy...
 # Donate me any amount to give me some happiness :) 
