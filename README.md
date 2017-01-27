@@ -17,7 +17,7 @@ This is 2 bash scripts makes connection to vpnbook.com downloading .ovpn files a
 
 # After of download run this line
 
-cd vpnbook && sudo chmod +x * && ./depancies && ./vpnscript.sh
+cd freeautovpn && sudo chmod +x * && ./depancies && ./vpnscript.sh
 
 #################################
 
