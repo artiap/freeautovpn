@@ -1,5 +1,5 @@
 #!/bin/bash
-lynx --dump ipecho.net/plain > newip.txt
+lynx --dump ipecho.net/plain
 
 sleep 5
 ./myip
