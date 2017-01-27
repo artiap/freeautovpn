@@ -9,7 +9,8 @@ This is 2 bash scripts makes connection to vpnbook.com downloading .ovpn files a
 
 # If you run it for first time run the ./vpnscript.sh
 
-# If you want to make autovpn connection without password update run the ./autovpn
+# If you want to make autovpn connection without password update run the ./autovpn 
+# (this is only after of the first run  ./vpnscript.sh)
 
 # (For auto-update the passwords) Every time you want to run again the script ./vpnscript.sh run first the cleaning script ./vpn-clear-all.sh
 
