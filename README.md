@@ -4,10 +4,10 @@ This is usefully script if you dont want spend your money to VPN services..
 #################################
 This is 2 bash scripts makes connection to vpnbook.com downloading .ovpn files and adding username/password automatically and Continuously Monitoring your Public Ip "CMPI" (wan) address if has change!
 #################################
-� For continuously monitoring pub-ip (wan) run ./myip
-� If you run it for first time run the ./vpnscript.sh
-� If you want to make autovpn connection without password update run the ./autovpn
-� (For auto-update the passwords) Every time you want to run again the script ./vpnscript.sh run first the cleaning script ./vpn-clear-all.sh
+1) For continuously monitoring pub-ip (wan) run ./myip
+2) If you run it for first time run the ./vpnscript.sh
+3) If you want to make autovpn connection without password update run the ./autovpn
+4) (For auto-update the passwords) Every time you want to run again the script ./vpnscript.sh run first the cleaning script ./vpn-clear-all.sh
 #################################
 
 # After of download run this line
