@@ -1,0 +1,25 @@
+#!/bin/bash
+lynx --dump ipecho.net/plain > newip.txt
+
+gotip=$(cat gotip.txt)
+compare=$(cat workingip.txt)
+
+if [[ "$compare" != "$newip" ]]
+    then
+    EMAIL="youremail@foo.net"
+    EMAILMESSAGE="/home/x/ipmessage.txt"
+    echo "ip address is now $newip" >> $EMAILMESSAGE
+    /usr/sbin/sendmail -t "$EMAIL" < $EMAILMESSAGE
+    rm ipmessage.txt
+    cp newip.txt oldip.txt
+
+
+else
+echo "done"
+rm newip.txt
+touch newip.txt
+fi
+
+
+sleep 5
+myip

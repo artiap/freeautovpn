@@ -1,0 +1,2 @@
+#!/bin/bash
+xterm -e sudo openvpn --config vpnbook-euro2-tcp443.ovpn --auth-user-pass login.conf auth-nocache --connect-retry-max 3 --single-session --tls-exit --nobind
